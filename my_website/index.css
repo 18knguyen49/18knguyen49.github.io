@@ -1,6 +1,7 @@
 @font-face { font-family: last; src: url('Images/TheLastCall.ttf'); } 
 @font-face { font-family: hang; src: url('Images/Hanged Letters.ttf'); }
 @font-face { font-family: ninja; src: url('Images/njnaruto.ttf'); } 
+@font-face { font-family: ok; src: url('Images/kk.ttf'); }
 body{
  background-repeat: repeat;
  background-size: 2000px 1300px;
@@ -14,8 +15,10 @@ h1{
  margin-top: 20px;
 }
 
-p.{
+p {
  text-align:center;
+ font-family: ok;
+ font-size: 40px;
 }
 th{
  background-color: lightsteelblue;
@@ -36,3 +39,32 @@ h2 {
 ul{
  font-size: 40px;
 }
+
+p{
+ background-color:gray;
+ color:white;
+ font-size: -40px;
+}
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightsteelblue;
+    margin-top: -10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+    text-align:center;

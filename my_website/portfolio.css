@@ -1,0 +1,30 @@
+@font-face { font-family: last; src: url('Images/TheLastCall.ttf'); } 
+
+body{
+    background-repeat: no-repeat;
+     background-size: 2150px 1750px;
+    font-family:"last";
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightsteelblue;
+    margin-top: -10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+    text-align:center;
