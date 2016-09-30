@@ -78,6 +78,11 @@ h6{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
+}
+#navbar li a:hover {
+    background-color: black;
+    text-align:center;
 }
 #hobbies {
     float:right;
@@ -99,4 +104,3 @@ h3{
 }
 h5{
     font-family:ok;
-}

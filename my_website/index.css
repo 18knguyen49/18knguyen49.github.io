@@ -52,27 +52,23 @@ p{
     padding: 0;
     overflow: hidden;
     background-color: lightsteelblue;
-    margin-top: -10px;
 }
 
 #navbar li {
     float: left;
 }
 
-#navbar li {
+#navbar li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 #navbar li a:hover {
     background-color: black;
     text-align:center;
-}
-#navbar a:visited{
- color: white;
-}
     h3{
      text-align:center;
      background-color: gray;
@@ -80,6 +76,6 @@ p{
     img{
      text-align:center;
     }
-    li{
+    li {
      float:left;
     }
