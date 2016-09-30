@@ -12,6 +12,7 @@ text-align:center;
 color: white;
 }
 h1{
+ text-align:center;
  margin-top: 20px;
 }
 
@@ -68,3 +69,11 @@ li a {
 li a:hover {
     background-color: black;
     text-align:center;
+}
+    h3{
+     text-align:center;
+     background-color: gray;
+    }
+    img{
+     text-align:center;
+    }

@@ -4,6 +4,12 @@ body{
     background-repeat: no-repeat;
      background-size: 2150px 1750px;
     font-family:"last";
+
+}
+h1{
+    font-size: 60px;
+    text-align:center;
+    color:white;
 }
 ul {
     list-style-type: none;
@@ -11,7 +17,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: lightsteelblue;
-    margin-top: -10px;
 }
 
 li {
@@ -27,4 +32,7 @@ li a {
 }
 li a:hover {
     background-color: black;
-    text-align:center;
+}
+a{
+    font-size: 40px;
+}
